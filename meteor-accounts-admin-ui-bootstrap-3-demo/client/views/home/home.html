@@ -1,0 +1,7 @@
+<template name="home">
+	{{#if isAdminUser}}
+		<div class="alert alert-success">Manage users over on the <a href='/admin/' class='alert-link'>Admin</a> Page</div>
+	{{else}}
+		<div class="alert alert-info">Well, you need to be logged in as an admin to do anything cool here...</div>
+	{{/if}}
+</template>

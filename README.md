@@ -1,4 +1,4 @@
-meteor-accounts-admin-ui-bootstrap-3-demo
-=========================================
+#Accounts Admin UI Demo
 
-Accounts admin ui demo
+A simple demo showing integration with Iron Router.  
+- Bootstraps by creating 1000 users and an admin user.
