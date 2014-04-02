@@ -11,7 +11,7 @@ Router.map(function() {
 	this.route('admin', {
 		path:'/admin',
 		template: 'accountsAdmin',
-		before: function() {
+		onBeforeAction: function() {
 			if (Meteor.loggingIn()) {
 				this.render(this.loadingTemplate);
 			} else if(!Roles.userIsInRole(Meteor.user(), ['admin'])) {
