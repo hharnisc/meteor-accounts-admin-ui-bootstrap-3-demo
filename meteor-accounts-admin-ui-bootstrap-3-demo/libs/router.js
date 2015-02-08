@@ -17,6 +17,8 @@ Router.map(function() {
 			} else if(!Roles.userIsInRole(Meteor.user(), ['admin'])) {
 				console.log('redirecting');
 				this.redirect('/');
+			} else {
+				this.next();
 			}
 		}
 	});

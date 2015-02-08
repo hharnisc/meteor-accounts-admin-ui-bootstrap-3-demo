@@ -4,9 +4,9 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-cmather:iron-router@0.7.0
+iron:router
 alanning:roles@1.2.8
-mrt:bootstrap-3@3.1.1-1
+mizzao:bootstrap-3
 mrt:accounts-admin-ui-bootstrap-3@0.2.5
 accounts-password
 mrt:accounts-ui-bootstrap-3@0.3.0-1
